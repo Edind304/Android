@@ -25,6 +25,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.widget.Toast;
 
+
 import com.exina.android.calendar.R;
 
 public class TestActivity extends PreferenceActivity implements Preference.OnPreferenceClickListener{
@@ -41,7 +42,7 @@ public class TestActivity extends PreferenceActivity implements Preference.OnPre
 	}
 	
 	//Called when an activity you launched exits, giving you the 
-	//requestCode you started it with, the resultCode it returned, 
+	//requestCode you started it with
 	//and any additional data from it. The resultCode will be 
 	//RESULT_CANCELED if the activity explicitly returned that, 
 	//didn't return any result, or crashed during its operation.
